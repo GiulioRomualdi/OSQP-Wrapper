@@ -139,3 +139,5 @@ include(AddOsqpEigenUnitTest)
 add_subdirectory(tests)
 
 include(AddUninstallTarget)
+
+export(PACKAGE ${PROJECT_NAME})
